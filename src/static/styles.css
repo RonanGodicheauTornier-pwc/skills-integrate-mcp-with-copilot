@@ -17,15 +17,23 @@ body {
 
 header {
   text-align: center;
-  padding: 20px 0;
+  padding: 24px 0;
   margin-bottom: 30px;
-  background-color: #1a237e;
-  color: white;
+  background: linear-gradient(135deg, #c6ff00 0%, #1a237e 100%);
+  color: #002b00;
   border-radius: 5px;
+  border: 3px solid #b2ff59;
 }
 
 header h1 {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  color: #1a237e;
+}
+
+header h2 {
+  margin-top: 0;
+  color: #004d00;
+  font-weight: 400;
 }
 
 main {
@@ -55,6 +63,25 @@ section h3 {
   padding-bottom: 10px;
   border-bottom: 1px solid #ddd;
   color: #1a237e;
+}
+
+.school-branding {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  color: #004d00;
+}
+
+.school-branding p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(180deg, #ffffff 0%, #efffdb 50%, #f5f5f5 100%);
 }
 
 .activity-card {
